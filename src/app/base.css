@@ -1,0 +1,98 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+h1 {
+  font-family: 'HeliosExt', cursive;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  color: azure;
+}
+
+html,
+body {
+  min-height: 100%;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+  height: auto !important;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/* Шрифт для заголовка */
+@font-face {
+  font-family: 'UncialAntiqua';
+  src: url(./fonts/UncialAntiqua-Regular.ttf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* Шрифт для заголовков */
+@font-face {
+  font-family: 'HeliosExt';
+  src: url(./fonts/HeliosExt-Bold.otf) format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Шрифт для текста */
+@font-face {
+  font-family: 'Manrope';
+  src: url(./fonts/Manrope-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Manrope';
+  src: url(./fonts/Manrope-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Manrope';
+  src: url(./fonts/Manrope-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Manrope';
+  src: url(./fonts/Manrope-Bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

@@ -4,8 +4,8 @@
 
 <template>
   <section :class="$style.hero">
-    <div :class="$style.container">
-      <h1 :class="$style.h1">Programmer’s Notebook</h1>
+    <div class="container">
+      <h1 id="title" :class="$style.h1">Programmer’s Notebook</h1>
       <p :class="$style.desc">
         Ваш цифровой помощник в изучении программирования
       </p>
@@ -16,20 +16,11 @@
 <style module>
 .hero {
   display: flex;
-  min-height: 80vh;
+  min-height: 65vh;
   align-items: center;
   justify-content: center;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  max-width: 1200px;
-  padding: 0 20px;
-}
 .desc {
   font-family: "Manrope", sans-serif;
   font-size: 1.125rem;

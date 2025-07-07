@@ -18,6 +18,14 @@ img {
   vertical-align: top;
 }
 
+p {
+  font-family: 'Manrope';
+  font-size: 0.9rem;
+  line-height: 1.2;
+  font-weight: 400;
+  color: rgb(192, 192, 192);
+}
+
 h1,
 h2,
 h3,
@@ -33,9 +41,22 @@ h1 {
   font-weight: 700;
   margin-bottom: 1.5rem;
   line-height: 1.2;
-  color: azure;
+  color: #cccbca;
 }
-
+h2 {
+  font-family: 'HeliosExt', cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #cccbca;
+  margin-bottom: 2rem;
+}
+h3 {
+  color: azure;
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 1.25rem;
+}
 html,
 body {
   min-height: 100%;
@@ -48,6 +69,15 @@ body {
   height: auto !important;
   margin: 0 auto;
   overflow: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 20px;
 }
 
 /* Шрифт для заголовка */

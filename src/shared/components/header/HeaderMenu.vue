@@ -9,7 +9,7 @@
           <a href="/">Главная</a>
         </li>
         <li :class="$style.navItem">
-          <a href="/">Статьи</a>
+          <a href="/">Заметки</a>
         </li>
         <li :class="$style.navItem">
           <a href="/">Контакты</a>

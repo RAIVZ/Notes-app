@@ -5,14 +5,11 @@
   <div :class="$style.nav">
     <nav :class="$style.navMenu">
       <ul :class="$style.navList">
-        <li :class="$style.navItem">
-          <router-link to="/" :class="$style.link">Главная</router-link>
+        <li :class="$style.footerNavItem">
+          <router-link to="/privacy" :class="$style.link">Политика конфиденциальности</router-link>
         </li>
-        <li :class="$style.navItem">
-          <router-link to="/" :class="$style.link">Документации</router-link>
-        </li>
-        <li :class="$style.navItem">
-          <router-link to="/" :class="$style.link">Контакты</router-link>
+        <li :class="$style.footerNavItem">
+            <!-- <router-link to="/help" :class="$style.link">Помощь</router-link> -->
         </li>
       </ul>
     </nav>
@@ -34,10 +31,10 @@
 }
 .navList {
   display: flex;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
+  gap: 1rem;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .link::after {
   content: "";
@@ -68,10 +65,5 @@
   position: relative;
   text-decoration: none;
   transition: color 0.3s ease;
-}
-@media (max-width: 640px) {
-  .nav {
-    display: none;
-  }
 }
 </style>

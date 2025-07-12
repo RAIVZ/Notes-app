@@ -1,18 +1,21 @@
 <script setup>
 import Hero from '@/shared/components/main/SectionHero.vue'
 import Middle from '@/shared/components/main/SectionMiddle.vue'
+import Bottom from '@/shared/components/main/SectionBottom.vue'
 </script>
 
 <template>
-  <main :class="$style.main">
+  <div :class="$style.MainContent">
     <Hero />
     <Middle />
-  </main>
+    <Bottom />
+  </div>
 </template>
 
 <style module>
-main {
-  flex-grow: 1;
-  background-color: #011226;
-}
+.MainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
 </style>

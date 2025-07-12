@@ -27,4 +27,13 @@ import Logo from '@/shared/assets/Header-assets/logo.png'
 .logoImage {
   display: block;
 }
+@media (max-width: 640px) {
+  .logo img {
+    width: 20px;
+    gap: 5px;
+  }
+  .logoText {
+    font-size: 14px;
+  }
+}
 </style>

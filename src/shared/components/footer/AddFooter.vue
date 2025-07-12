@@ -1,30 +1,29 @@
 <script setup>
-import Logo from '../../assets/Header-assets/BlokLogo.vue'
-import Menu from './HeaderMenu.vue'
+import FooterLogo from '@/shared/assets/Header-assets/BlokLogo.vue'
+import FooterMenu from '@/shared/components/footer/FooterMenu.vue'
 </script>
+
 <template>
-    <header :class="$style.header">
-      <div :class="$style.HeadContent">
-        <Logo />
-        <Menu />
+    <footer :class="$style.footer">
+      <div :class="$style.footerContent">
+        <FooterLogo />
+        <FooterMenu />
       </div>
-    </header>
+    </footer>
 </template>
 
 <style module>
-header {
+footer {
   display: flex;
   background-color: #004280;
   height: 50px;
-  position: fixed;
   z-index: 10;
   top: 0;
   left: 0;
   right: 0;
   align-items: center;
-  margin: 0 auto;
 }
-.HeadContent {
+.footerContent {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -35,3 +34,4 @@ header {
   padding: 0px 30px;
 }
 </style>
+

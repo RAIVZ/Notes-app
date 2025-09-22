@@ -18,7 +18,7 @@
 
 <style module>
 .hero {
-  width: 1002%;
+  width: 100%;
   display: flex;
   min-height: 55vh;
   align-items: center;

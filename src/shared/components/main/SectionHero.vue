@@ -34,7 +34,7 @@
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.5;
-  color: rgb(192, 192, 192);
+  color: rgb(24, 24, 24);
   margin-bottom: 2.2rem;
 }
 @media (max-width: 480px) {

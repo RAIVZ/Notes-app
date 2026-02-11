@@ -67,14 +67,14 @@ h1 {
   font-weight: 700;
   margin-bottom: 1.2rem;
   line-height: 1.2;
-  color: #cccbca;
+  color: #131313;
 }
 h2 {
   font-family: 'HeliosExt', cursive;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #cccbca;
+  color: #131313;
   margin-bottom: 2rem;
 }
 h3 {
@@ -89,7 +89,7 @@ h3 {
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
-  overflow: auto;
+  overflow: hidden;
   min-height: 100vh;
 }
 .container {

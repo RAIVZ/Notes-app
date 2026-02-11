@@ -46,12 +46,12 @@
   bottom: -4px;
   width: 0;
   height: 2px;
-  background: #00D5DC;
+  background: #BE1593;
   transition: all 0.3s ease;
 }
 
 .link:hover {
-  color: #00D5DC;
+  color: #BE1593;
 }
 
 .link:hover::after {

@@ -4,8 +4,8 @@ import Logo from '@/shared/assets/Header-assets/logo.png'
 <template>
   <div :class="$style.logoBlock">
     <a href="/" :class="$style.logo">
-      <img :src="Logo" alt="Лого" :class="$style.logoImage" width="25" />
-      <span :class="$style.logoText">Notes</span>
+      <img :src="Logo" alt="Лого" :class="$style.logoImage" width="65" />
+      <span :class="$style.logoText">dashboard</span>
     </a>
   </div>
 </template>
@@ -15,7 +15,7 @@ import Logo from '@/shared/assets/Header-assets/logo.png'
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  gap: 10px;
+  gap: 5px;
 }
 .logoText {
   font-family: "HeliosExt", cursive;

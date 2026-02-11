@@ -15,8 +15,8 @@ import FooterMenu from '@/shared/components/footer/FooterMenu.vue'
 <style module>
 footer {
   display: flex;
-  background-color: #004280;
-  height: 50px;
+  background-color: #08082E;
+  height: 70px;
   z-index: 10;
   top: 0;
   left: 0;

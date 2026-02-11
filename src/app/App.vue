@@ -18,7 +18,7 @@ import Footer from '@/shared/components/footer/AddFooter.vue'
 main {
   display: block;
   flex-grow: 1;
-  background-color: #011226;
+  background-color: #F2F3F7;
 }
 </style>
 <script>

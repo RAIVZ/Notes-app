@@ -23,14 +23,14 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #2d9cdb;
+  background-color: #03E7F4;
   border-radius: 4px;
 }
 
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #2d9cdb #011226;
+  scrollbar-color: #03E7F4 #1C4771;
 }
 a {
   text-decoration: none;

@@ -43,12 +43,12 @@
   bottom: -4px;
   width: 0;
   height: 2px;
-  background: #2d9cdb;
+  background: #00D5DC;
   transition: all 0.3s ease;
 }
 
 .link:hover {
-  color: #2d9cdb;
+  color: #00D5DC;
 }
 
 .link:hover::after {

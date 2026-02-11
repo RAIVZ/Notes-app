@@ -14,7 +14,7 @@ import Menu from './HeaderMenu.vue'
 <style module>
 header {
   display: flex;
-  background-color: #004280;
+  background-color: #0354b0;
   height: 50px;
   position: fixed;
   z-index: 10;

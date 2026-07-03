@@ -6,8 +6,6 @@
   <section :class="$style.middle">
     <div class="container">
       <div :class="$style.middleContainer">
-              <!-- Заголовок раздела -->
-              <h2 id="title">Все ресурсы для вашего обучения</h2>
       </div>
     </div>
   </section>

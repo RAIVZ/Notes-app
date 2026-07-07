@@ -6,6 +6,7 @@
   <section :class="$style.hero">
     <div class="container">
       <div :class="$style.heroContainer">
+        
       </div>
     </div>
   </section>

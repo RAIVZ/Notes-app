@@ -9,7 +9,7 @@ import Main from '@/shared/components/main/AppMain.vue'
       // {
       //   path: '/privacy',
       //   name: 'Privacy',
-      //   component: Privacy,
+      //   component: Privacy
       // },
   ]
 

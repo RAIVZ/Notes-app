@@ -1,11 +1,12 @@
 <script setup>
-
+import TaskManager from '@/shared/components/tasks/TaskManager.vue';
 </script>
 
 <template>
   <section :class="$style.middle">
     <div class="container">
       <div :class="$style.middleContainer">
+        <TaskManager />
       </div>
     </div>
   </section>
@@ -23,5 +24,4 @@
   height: 100%;
   width: 100%;
 }
-
 </style>

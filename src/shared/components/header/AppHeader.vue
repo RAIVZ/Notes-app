@@ -14,14 +14,15 @@ import Menu from './HeaderMenu.vue'
 <style module>
 header {
   display: flex;
-  background-color: #08082E;
-  height: 70px;
+  background-color: #23252b;
+  flex-direction: column;
+  width: 250px;
+  height: 100vh;
   position: fixed;
   z-index: 10;
   top: 0;
   left: 0;
-  right: 0;
-  align-items: center;
+  align-items: start;
   margin: 0 auto;
 }
 .HeadContent {
@@ -30,8 +31,6 @@ header {
   margin: 0 auto;
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 30px;
+  flex-direction: column;
 }
 </style>

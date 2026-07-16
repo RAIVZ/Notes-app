@@ -15,23 +15,21 @@ body {
   overflow: auto;
 }
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 9px;
   height: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #011226;
+  background: #2C2C2C;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #03E7F4;
+  background-color: #b4b4b4;
   border-radius: 4px;
 }
 
+
 /* Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #03E7F4 #1C4771;
-}
+
 a {
   text-decoration: none;
 }
@@ -86,7 +84,7 @@ h3 {
 
 .wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;

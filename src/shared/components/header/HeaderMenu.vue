@@ -20,10 +20,16 @@
 </template>
 <style module>
 .nav {
+  padding: 16px 14px;
   display: flex;
   position: static;
   align-items: center;
-  gap: 20px;
+
+}
+.navItem {
+    display: flex;
+    height: 40px;
+    align-items: center;
 }
 .navMenu {
   display: flex;
@@ -34,10 +40,10 @@
 }
 .navList {
   display: flex;
-  gap: 20px;
   margin: 0;
   padding: 0;
   list-style: none;
+  flex-direction: column;
 }
 .link::after {
   content: "";
@@ -46,12 +52,12 @@
   bottom: -4px;
   width: 0;
   height: 2px;
-  background: #BE1593;
+  background: #c9c9c9;
   transition: all 0.3s ease;
 }
 
 .link:hover {
-  color: #BE1593;
+  color: #c9c9c9;
 }
 
 .link:hover::after {
@@ -63,7 +69,7 @@
   font-family: "Manrope", sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: #ffffff;
+  color: #c9c9c9;
   cursor: pointer;
   position: relative;
   text-decoration: none;

@@ -18,7 +18,6 @@ header {
   flex-direction: column;
   width: 250px;
   height: 100vh;
-  position: fixed;
   z-index: 10;
   top: 0;
   left: 0;

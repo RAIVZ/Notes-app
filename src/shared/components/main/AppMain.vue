@@ -18,8 +18,8 @@ main {
   background-color: #1a1b1f;
 }
 .MainContent {
+  padding: 20px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     }
 

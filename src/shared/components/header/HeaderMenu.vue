@@ -9,10 +9,10 @@
           <router-link to="/" :class="$style.link">Дашборд</router-link>
         </li>
         <li :class="$style.navItem">
-          <router-link to="/" :class="$style.link">Аналитика</router-link>
+          <router-link to="/analytics" :class="$style.link">Аналитика</router-link>
         </li>
         <li :class="$style.navItem">
-          <router-link to="/" :class="$style.link">Отчеты</router-link>
+          <router-link to="/reports" :class="$style.link">Отчеты</router-link>
         </li>
         <li :class="$style.navItem">
           <router-link to="/" :class="$style.link">Виджеты</router-link>

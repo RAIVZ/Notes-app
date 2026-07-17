@@ -5,24 +5,24 @@
   <div :class="$style.nav">
     <nav :class="$style.navMenu">
       <ul :class="$style.navList">
-        <li :class="$style.navItem">
-          <router-link to="/" :class="$style.link">Дашборд</router-link>
-        </li>
-        <li :class="$style.navItem">
-          <router-link to="/analytics" :class="$style.link">Аналитика</router-link>
-        </li>
-        <li :class="$style.navItem">
-          <router-link to="/reports" :class="$style.link">Отчеты</router-link>
-        </li>
-        <li :class="$style.navItem">
-          <router-link to="/" :class="$style.link">Виджеты</router-link>
-        </li>
-        <li :class="$style.navItem">
-          <router-link to="/" :class="$style.link">Настройки</router-link>
-        </li>
-        <li :class="$style.navItem">
-          <router-link to="/" :class="$style.link">Документация</router-link>
-        </li>
+        <router-link to="/" :class="$style.navItem">
+          <router-link :class="$style.link">Дашборд</router-link>
+        </router-link>
+        <router-link to="/analytics" :class="$style.navItem">
+          <span :class="$style.link">Аналитика</span>
+        </router-link>
+        <router-link to="/reports" :class="$style.navItem">
+          <span :class="$style.link">Отчеты</span>
+        </router-link>
+        <router-link :class="$style.navItem">
+          <span :class="$style.link">Виджеты</span>
+        </router-link>
+        <router-link :class="$style.navItem">
+          <span :class="$style.link">Настройки</span>
+        </router-link>
+        <router-link :class="$style.navItem">
+          <span :class="$style.link">Документация</span>
+        </router-link>
       </ul>
     </nav>
   </div>
@@ -58,10 +58,10 @@
   flex-direction: column;
 }
 .navItem:hover {
-  cursor: pointer;
   background-color: #535353;
 }
 .link {
+  pointer-events: none;
   user-select: none;
   font-family: "Manrope", sans-serif;
   font-size: 16px;
@@ -72,7 +72,7 @@
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.link::after {
+/* .link::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -81,9 +81,9 @@
   height: 2px;
   background: #c9c9c9;
   transition: all 0.3s ease;
-}
+} */
 
-.navItem:hover .link::after {
+.navItem:hover {
   cursor: pointer;
   left: 0;
   width: 100%;

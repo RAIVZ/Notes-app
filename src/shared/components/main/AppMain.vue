@@ -16,6 +16,8 @@ main {
   display: block;
   flex-grow: 1;
   background-color: #1a1b1f;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .MainContent {
   padding: 20px;

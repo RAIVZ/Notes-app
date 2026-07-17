@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style.container">
+  <div :class="$style.TableСontainer">
     <div v-if="loading" :class="$style.loading">Загрузка данных...</div>
     
     <div v-else :class="$style.tables">
@@ -131,9 +131,9 @@ const formatNumber = (num) => {
 </script>
 
 <style module>
-.GridTable {
+.TableСontainer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .title {

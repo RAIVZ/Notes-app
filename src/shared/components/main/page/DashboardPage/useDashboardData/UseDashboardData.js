@@ -63,4 +63,4 @@ export function useMarketData() {
   })
 
   return { metals, currencies, loading }
-}
+}  

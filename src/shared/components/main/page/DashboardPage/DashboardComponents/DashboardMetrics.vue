@@ -3,7 +3,7 @@ import { FetchMetrics } from '@/shared/components/main/page/DashboardPage/useDas
 const { usdRate, gold } = FetchMetrics();
 </script>
 <template>
-  <div :class="$style.GridMetrics">
+  <div :class="$style.MetricsСontainer">
     <div :class="$style.USDetrics">
       <div :class="$style.label">💵 Курс USD:</div>
       <div :class="$style.value">{{ usdRate?.toFixed(2) }} ₽</div>
@@ -26,7 +26,7 @@ const { usdRate, gold } = FetchMetrics();
 
 
 <style module>
-.GridMetrics {
+.MetricsСontainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 25px;
